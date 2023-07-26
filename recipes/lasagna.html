@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .odinrecipescontainer {
+        margin-top: 20px;
+        display: flex;
+
+        height: 60vh;
+        width: 100%;
+        padding: 0 5%;
+        gap: 20px;
+        justify-content: space-evenly;
+      }
+
+      .odinfirst {
+        height: 100%;
+        width: 60%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url(https://bing.com/th?id=OSK.a7c96ee56d859f423d1290827aa3c14f);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .odinsecond {
+        height: 100%;
+        width: 60%;
+        border-radius: 20px;
+        background-image: url(https://api.lifegetsbetter.ph/uploads/recipes/featured/Red-Sisig.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .odinthird {
+        border: 1px solid black;
+        height: 100%;
+        width: 60%;
+        border-radius: 20px;
+        background-image: url(https://www.allchickenrecipes.com/wp-content/uploads/2019/01/Chicken-Adobo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      h1 {
+        color: green;
+        font-size: 56px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Odin Recipes</h1>
+
+    <div class="odinrecipescontainer">
+      <div class="odinfirst">
+        <h1>Lasagna</h1>
+      </div>
+      <div class="odinsecond"><h1>Red-Sisig</h1></div>
+      <div class="odinthird"><h1>Chicken-Adobo</h1></div>
+    </div>
+  </body>
+</html>
